@@ -1,0 +1,22 @@
+[package]
+name = "yaps-hyper-router"
+version = "0.1.0"
+authors = ["sosik"]
+edition = "2018"
+description = "Yet Another Pretty Simple Hyper Router"
+license = "MIT"
+
+[dependencies]
+"log" = "^0.4"
+"hyper" = "^0.12"
+"futures" = "^0.1"
+"regex" = "^1.1"
+"tokio-fs" = "^0.1"
+"tokio-io" = "^0.1"
+"tokio-codec" = "^0.1"
+"http" = "^0.1"
+"hcontext" = { "version" = "0.1", "path" = "../hcontext" }
+
+[badges]
+travis-ci = { repository = "sosik/yaps-hyper-router", branch = "master" }
+maintenance = { status = "experimental" }
