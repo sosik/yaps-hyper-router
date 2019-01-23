@@ -15,7 +15,7 @@ license = "MIT"
 "tokio-io" = "^0.1"
 "tokio-codec" = "^0.1"
 "http" = "^0.1"
-"hcontext" = { "version" = "0.1", "path" = "../hcontext" }
+"hcontext" = "^0.1"
 
 [badges]
 travis-ci = { repository = "sosik/yaps-hyper-router", branch = "master" }
